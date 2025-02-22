@@ -1,0 +1,29 @@
+[user]
+	email = mathiew0@gmail.com
+	name = Matheus-git
+[advice]
+	addEmptyPathspec = true
+	detachedHead = false
+	rebaseTodoError = true
+	resolveConflict = true
+	skippedCherryPicks = true
+	statusHints = true
+[alias]
+	a = add
+	c = commit
+	p = push
+	cp = ! git commit && git push
+	ac = ! git add . && git commit
+	acp = ! git add . && git commit && git push
+[color]
+    ui = auto
+[commit]
+	verbose=true
+	template=/home/matheus/commit.template
+[fetch]
+	all=true
+[status]
+	short=true
+	branch=true
+	showStash=true
+	showUntrackedFiles=true
