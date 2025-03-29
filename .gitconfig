@@ -27,3 +27,7 @@
 	branch=true
 	showStash=true
 	showUntrackedFiles=true
+[init]
+	defaultBranch = main
+[format]
+	pretty = "%C(yellow)%h%C(reset) - %s  %C(cyan)( %an%C(reset) - %C(magenta)%cr%C(reset) %C(cyan))%C(reset)"
