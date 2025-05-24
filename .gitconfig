@@ -31,3 +31,5 @@
 	defaultBranch = main
 [format]
 	pretty = "%C(yellow)%h%C(reset) - %s  %C(cyan)( %an%C(reset) - %C(magenta)%cr%C(reset) %C(cyan))%C(reset)"
+[pull]
+	rebase = false
